@@ -1,18 +1,18 @@
 'use strict';
 
 const { Sequelize, DataTypes } = require('sequelize');
-const clothesModel = require('./categories/model.js');
-const foodModel = require('./items/model.js');
+const categoriesModel = require('./categories/model.js');
+const itemsModel = require('./items/model.js');
 const Collection = require('./data-collection.js');
 
 const DATABASE_URL = process.env.DATABASE_URL || 'sqlite:memory:';
 
 const sequelize = new Sequelize(DATABASE_URL);
-const food = foodModel(sequelize, DataTypes);
-const clothes = clothesModel(sequelize, DataTypes);
+const items = itemsModel(sequelize, DataTypes);
+const categories = categoriesModel(sequelize, DataTypes);
 
 module.exports = {
   db: sequelize,
-  food: new Collection(food),
-  clothes: new Collection(clothes),
+  items: new Collection(items),
+  categories: new Collection(categories),
 };

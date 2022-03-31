@@ -1,6 +1,6 @@
 'use strict';
 
-const { db, food, clothes } = require('../src/models');
+const { db, items, categories } = require('../src/models');
 const { server } = require('../src/server');
 const supertest = require('supertest');
 // const { it } = require('eslint/lib/rule-tester/rule-tester');
@@ -8,12 +8,12 @@ const request = supertest(server);
 
 beforeAll(async () => {
   await db.sync();
-  await food.create({
+  await items.create({
     name: 'lardfruit',
     calories: 1000000,
     type: 'fruit',
   });
-  await clothes.create({
+  await categories.create({
     name: 'The Mediumest Shirt',
     color: 'Medium Gray',
     size: 'XX-M',
@@ -41,15 +41,15 @@ describe('V1 Route Tests', () => {
   });
 
   describe('GET all', () => {
-    it('should get all records of the food model', async () => {
-      let response = await request.get('/api/v1/food');
+    it('should get all records of the items model', async () => {
+      let response = await request.get('/api/v1/items');
 
       expect(response.status).toEqual(200);
       expect(response.body[0].name).toEqual('lardfruit');
     });
 
-    it('should get all records of the clothes model', async () => {
-      let response = await request.get('/api/v1/clothes');
+    it('should get all records of the categories model', async () => {
+      let response = await request.get('/api/v1/categories');
 
       expect(response.status).toEqual(200);
       expect(response.body[0].name).toEqual('The Mediumest Shirt');
@@ -57,15 +57,15 @@ describe('V1 Route Tests', () => {
   });
 
   describe('GET one', () => {
-    it('should get one record from the food model', async () => {
-      let response = await request.get('/api/v1/food/1');
+    it('should get one record from the items model', async () => {
+      let response = await request.get('/api/v1/items/1');
 
       expect(response.status).toEqual(200);
       expect(response.body.name).toEqual('lardfruit');
     });
 
-    it('should get one record from the clothes model', async () => {
-      let response = await request.get('/api/v1/clothes/1');
+    it('should get one record from the categories model', async () => {
+      let response = await request.get('/api/v1/categories/1');
 
       expect(response.status).toEqual(200);
       expect(response.body.name).toEqual('The Mediumest Shirt');
@@ -73,8 +73,8 @@ describe('V1 Route Tests', () => {
   });
 
   describe('POST one', () => {
-    it('should post one record to the food model', async () => {
-      let response = await request.post('/api/v1/food').send({
+    it('should post one record to the items model', async () => {
+      let response = await request.post('/api/v1/items').send({
         name: 'tofudabeast',
         calories: 100,
         type: 'protein',
@@ -84,8 +84,8 @@ describe('V1 Route Tests', () => {
       expect(response.body.name).toEqual('tofudabeast');
     });
 
-    it('should post one record to the clothes model', async () => {
-      let response = await request.post('/api/v1/clothes').send({
+    it('should post one record to the categories model', async () => {
+      let response = await request.post('/api/v1/categories').send({
         name: 'one left shoe',
         color: 'plaid',
         size: '5',
@@ -97,8 +97,8 @@ describe('V1 Route Tests', () => {
   });
 
   describe('PUT one', () => {
-    it('should update one record of the food model', async () => {
-      let response = await request.put('/api/v1/food/1').send({
+    it('should update one record of the items model', async () => {
+      let response = await request.put('/api/v1/items/1').send({
         name: 'tofuda-beast',
         calories: 1000,
         type: 'protein',
@@ -108,8 +108,8 @@ describe('V1 Route Tests', () => {
       expect(response.body.name).toEqual('tofuda-beast');
     });
 
-    it('should update one record of the clothes model', async () => {
-      let response = await request.put('/api/v1/clothes/1').send({
+    it('should update one record of the categories model', async () => {
+      let response = await request.put('/api/v1/categories/1').send({
         name: 'one right shoe',
         color: 'plaid',
         size: '5.5',
@@ -121,15 +121,15 @@ describe('V1 Route Tests', () => {
   });
 
   describe('DELETE one', () => {
-    it('should delete one record from the food model', async () => {
-      let response = await request.delete('/api/v1/food/1');
+    it('should delete one record from the items model', async () => {
+      let response = await request.delete('/api/v1/items/1');
       console.log(response.body);
       expect(response.status).toEqual(200);
       expect(response.body).toEqual(1);
     });
 
-    it('should delete one record from the clothes model', async () => {
-      let response = await request.delete('/api/v1/clothes/1');
+    it('should delete one record from the categories model', async () => {
+      let response = await request.delete('/api/v1/categories/1');
 
       expect(response.status).toEqual(200);
       expect(response.body).toEqual(1);
