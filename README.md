@@ -1,6 +1,8 @@
 # lab9-CRUD-AUTH-server
 Rey and Mike lab 08 project
 
+
+
 3-31-22
 11:20 - Met to discuss project ideas/
 
@@ -22,9 +24,10 @@ Your application must employ the following programming concepts:
 
 Used API server to perform database operations
 Used login/auth/acl to control access to resources
+## [Google doc](https://docs.google.com/document/d/1wsUU4DYcN0ZN13N7iCrOBs61ZImt9NikzwyvC-LzSm8/edit?usp=sharing)
 
 ## Presentation
-[slide deck]()
+[slide deck](https://docs.google.com/presentation/d/1wL4-YznWNWUqwGxZwVm9rXOMnkB4acqfkGfItyzhkGw/edit?usp=sharing)
 
 On the due-date, your team will present a working version of your project to the class showcasing the following:
 
