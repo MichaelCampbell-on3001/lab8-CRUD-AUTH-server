@@ -23,17 +23,18 @@ Your application must employ the following programming concepts:
 [heroku]()
 
 Used API server to perform database operations
+
 Used login/auth/acl to control access to resources
 
 ## [Google doc](https://docs.google.com/document/d/1wsUU4DYcN0ZN13N7iCrOBs61ZImt9NikzwyvC-LzSm8/edit?usp=sharing)
 
 ## [Presentation Slide Deck](https://docs.google.com/presentation/d/1wL4-YznWNWUqwGxZwVm9rXOMnkB4acqfkGfItyzhkGw/edit?usp=sharing)
 
-On the due-date, your team will present a working version of your project to the class showcasing the following:
+MOnday, our team will present a working version of our project to the class showcasing the following:
 
-General Functionality
-Wiring (quick overview)
-Code Review
+- General Functionality
+- Wiring (quick overview)
+- Code Review
 
 ## What our app can do:
 
@@ -44,6 +45,8 @@ Code Review
 - Delete an account
 - CRUD a 'to do' list
 
+![UML]()
+[UML Link](https://nicholasm734954.invisionapp.com/freehand/Lab-09-UML-JnTZU5yw5?dsid_h=d11ca5c683adf79bc05df845c734b49aa958d6c6bd288487cc3c4c7aa2154e54&uid_h=ddedb533e3da7785b77b33df291811a8fcde1503979fab0b52ecf3781e81f767)
 
 
 
