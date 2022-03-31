@@ -15,18 +15,20 @@ rey and mike lab 08 project
 Requirements
 Your application must employ the following programming concepts:
 
-## API/Auth server must be deployed
-Use of your API server to perform database operations
-Use of login/auth/acl to control access to your resources
+## API/Auth server must deployed to Heroku
+[heroku]()
+Used API server to perform database operations
+Used login/auth/acl to control access to resources
 
 ## Presentation
+[slide deck]()
 On the due-date, your team will present a working version of your project to the class showcasing the following:
 
 General Functionality
 Wiring (quick overview)
 Code Review
 
-## Project Ideas
+## What our app can do:
 
 A command line application that prompts a user to:
 Create an account with a password
