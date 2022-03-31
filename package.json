@@ -1,14 +1,10 @@
 {
-  "name": "lab9-CRUD-AUTH-server",
+  "name": "auth-api-server",
   "version": "1.0.0",
-  "description": "Rey and Mike lab 08 project",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --watchAll"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MichaelCampbell-on3001/lab9-CRUD-AUTH-server.git"
   },
   "keywords": [],
   "author": "",
@@ -22,9 +18,5 @@
     "sequelize": "^6.17.0",
     "sqlite3": "^5.0.2",
     "supertest": "^6.2.2"
-  },
-  "bugs": {
-    "url": "https://github.com/MichaelCampbell-on3001/lab9-CRUD-AUTH-server/issues"
-  },
-  "homepage": "https://github.com/MichaelCampbell-on3001/lab9-CRUD-AUTH-server#readme"
+  }
 }
