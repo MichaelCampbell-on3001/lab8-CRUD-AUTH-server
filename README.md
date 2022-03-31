@@ -28,7 +28,7 @@ Used login/auth/acl to control access to resources
 ## [Google doc](https://docs.google.com/document/d/1wsUU4DYcN0ZN13N7iCrOBs61ZImt9NikzwyvC-LzSm8/edit?usp=sharing)
 
 ## Presentation
-**[slide deck](https://docs.google.com/presentation/d/1wL4-YznWNWUqwGxZwVm9rXOMnkB4acqfkGfItyzhkGw/edit?usp=sharing)**
+**[Presentation Slide Deck](https://docs.google.com/presentation/d/1wL4-YznWNWUqwGxZwVm9rXOMnkB4acqfkGfItyzhkGw/edit?usp=sharing)**
 
 On the due-date, your team will present a working version of your project to the class showcasing the following:
 
