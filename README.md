@@ -1,5 +1,5 @@
 # lab9-CRUD-AUTH-server
-rey and mike lab 08 project
+Rey and Mike lab 08 project
 
 3-31-22
 11:20 - Met to discuss project ideas/
@@ -12,16 +12,20 @@ rey and mike lab 08 project
 
 11:55 - Decided two-person encrypted chat app.
 
+1:25 - decided to do Auth CRUD Server To Do list
+
 Requirements
 Your application must employ the following programming concepts:
 
 ## API/Auth server must deployed to Heroku
 [heroku]()
+
 Used API server to perform database operations
 Used login/auth/acl to control access to resources
 
 ## Presentation
 [slide deck]()
+
 On the due-date, your team will present a working version of your project to the class showcasing the following:
 
 General Functionality
@@ -30,14 +34,13 @@ Code Review
 
 ## What our app can do:
 
-A command line application that prompts a user to:
-Create an account with a password
-Login with an account
-Edit account details
-Delete an account
-Look into node modules such as Inquirer for inspiration
-A clone of Postman or HTTPIE that can run requests against your API easily and shows the results
-A command line application that lets you enter a note (a sentence) and stores it to a database, and later get a list of your notes
+- A command line application that allows a user to create and edit a to do list after they:
+- Create an account with a password
+- Login with an account
+- Edit account details
+- Delete an account
+- CRUD a 'to do' list
+
 
 
 
