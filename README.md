@@ -63,3 +63,19 @@ MOnday, our team will present a working version of our project to the class show
 
 
 
+## Plan at 7pm Mar31 (after 1 hour dinner 6-7pm)
+
+- Create a table
+- Create a todolist
+- Experiment with 
+  - adding 
+  - updating and 
+  - deleting items
+- Add functionality
+ ....
+
+Plan of attack
+
+ 1. first establish crud and server functionality
+ 2. establish auth
+ 3. establish login and acl
