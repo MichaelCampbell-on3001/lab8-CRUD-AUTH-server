@@ -16,6 +16,19 @@ Rey and Mike lab 08 project
 
 1:25 - decided to do Auth CRUD Server To Do list
 
+1:45 - sought feedback from instructor Jacob and assistant instructor Ryan for valid options
+
+1:55 - Rey attended lecture on jest. Michael decided to not attend lecture and prepare the lab repo
+
+3:00 - Rey returns from lecture on jest, asks for 10 min break, Michael agrees.
+
+3:10 - Rey returns from 10 min break.
+       Discussed and agreed to pull folder straight from class repo instead of manual copying to reduce errors.
+
+4:30 - break
+
+4:40 - break finished
+
 Requirements
 Your application must employ the following programming concepts:
 
@@ -50,3 +63,19 @@ MOnday, our team will present a working version of our project to the class show
 
 
 
+## Plan at 7pm Mar31 (after 1 hour dinner 6-7pm)
+
+- Create a table
+- Create a todolist
+- Experiment with 
+  - adding 
+  - updating and 
+  - deleting items
+- Add functionality
+ ....
+
+Plan of attack
+
+ 1. first establish crud and server functionality
+ 2. establish auth
+ 3. establish login and acl
