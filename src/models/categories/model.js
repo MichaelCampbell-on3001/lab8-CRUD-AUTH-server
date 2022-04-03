@@ -1,9 +1,9 @@
 'use strict';
 
-const clothesModel = (sequelize, DataTypes) => sequelize.define('Clothes', {
+const categoriesModel = (sequelize, DataTypes) => sequelize.define('categories', {
   name: { type: DataTypes.STRING, required: true },
   color: { type: DataTypes.STRING, required: true },
   size: { type: DataTypes.STRING, required: true },
 });
 
-module.exports = clothesModel;
+module.exports = categoriesModel;
